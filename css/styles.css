@@ -323,6 +323,35 @@ address {
   margin-top: 10px;
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+  fill: AFB1B8;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  border-radius: 50%;
+  color: var(--accent-color);
+  background-color: var(--accent-color);
+}
+
+.social-list-icom {
+  fill: AFB1B8;
+  width: 20px;
+  height: 20px;
+}
+
 /* FOOTER */
 
 footer {

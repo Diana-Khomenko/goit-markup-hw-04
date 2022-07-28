@@ -157,7 +157,7 @@ address {
 .icon-envelope {
   width: 16px;
   height: 12px;
-  fill: #757575;
+  fill: currentColor;
   margin-right: 10px;
 }
 
@@ -169,7 +169,7 @@ address {
 .icon-smartphone {
   width: 10px;
   height: 16px;
-  fill: #757575;
+  fill: currentColor;
   margin-right: 10px;
 }
 
@@ -390,11 +390,12 @@ address {
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--accent-color);
+  color: var(--team-color);
 }
 
 .social-list-icom:hover,
 .social-list-icom:focus {
-  fill: var(--second-title);
+  fill: currentColor;
 }
 
 .social-list-icom {
@@ -425,11 +426,12 @@ address {
 .clients-link:hover,
 .clients-link:focus {
   border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .clients-link .clients-link-icom:hover,
 .clients-link .clients-link-icom:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 .clients-link-icom {
